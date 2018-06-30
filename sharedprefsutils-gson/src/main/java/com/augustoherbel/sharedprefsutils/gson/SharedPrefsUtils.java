@@ -1,9 +1,9 @@
 package com.augustoherbel.sharedprefsutils.gson;
 
-import com.augustoherbel.sharedprefsutils.base.BaseSharedPrefUtils;
+import com.augustoherbel.sharedprefsutils.base.BaseSharedPrefsUtils;
 import com.google.gson.Gson;
 
-public class SharedPrefUtils extends BaseSharedPrefUtils {
+public class SharedPrefsUtils extends BaseSharedPrefsUtils {
 
     public static void putObject(String keyName, Object keyValue) {
         try {

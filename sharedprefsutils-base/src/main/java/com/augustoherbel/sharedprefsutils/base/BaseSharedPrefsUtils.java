@@ -6,14 +6,14 @@ import android.content.SharedPreferences;
 import java.util.Map;
 import java.util.Set;
 
-public abstract class BaseSharedPrefUtils {
+public abstract class BaseSharedPrefsUtils {
 
     private static SharedPreferences sp;
     private static String spName;
 
     public static void initialize(Context context, String spName) {
         if(sp == null) sp = context.getSharedPreferences(spName, Context.MODE_PRIVATE);
-        BaseSharedPrefUtils.spName = spName;
+        BaseSharedPrefsUtils.spName = spName;
     }
 
     public static SharedPreferences getSharedPreferences() {
