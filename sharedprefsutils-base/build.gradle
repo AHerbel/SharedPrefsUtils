@@ -1,3 +1,5 @@
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.AHerbel.SharedPrefsUtils'
 apply plugin: 'com.android.library'
 
 android {
