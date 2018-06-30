@@ -1,6 +1,5 @@
-package com.augustoherbel.sharedprefsutils.gson;
+package com.augustoherbel.sharedprefsutils;
 
-import com.augustoherbel.sharedprefsutils.base.BaseSharedPrefsUtils;
 import com.google.gson.Gson;
 
 public class SharedPrefsUtils extends BaseSharedPrefsUtils {

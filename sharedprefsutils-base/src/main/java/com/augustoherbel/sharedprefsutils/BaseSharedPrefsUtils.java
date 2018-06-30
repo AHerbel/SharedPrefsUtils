@@ -1,4 +1,4 @@
-package com.augustoherbel.sharedprefsutils.base;
+package com.augustoherbel.sharedprefsutils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import java.util.Map;
 import java.util.Set;
 
-public abstract class BaseSharedPrefsUtils {
+abstract class BaseSharedPrefsUtils {
 
     private static SharedPreferences sp;
     private static String spName;
