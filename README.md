@@ -3,12 +3,23 @@ A SharedPreferences wrapper to avoid Editor's interface
 
 ### Installing
 
-Include this line in your gradle dependencies block. Choose the version that's suitable for you
+Add the JitPack repository to your root build.gradle at the end of repositories:
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Include this line in your module's build.gradle dependencies block. Choose the version that's suitable for you
 
 ```
 dependencies {
-    implementation 'simple version link'
-    implementation 'gson version link'
+    implementation 'com.github.AHerbel.SharedPrefsUtils:sharedprefsutils-simple:1.0.0'
+    implementation 'com.github.AHerbel.SharedPrefsUtils:sharedprefsutils-gson:1.0.0'
 }
 ```
 
