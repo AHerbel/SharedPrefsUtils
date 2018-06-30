@@ -71,7 +71,7 @@ MyObject myObject = SharedPrefsUtils.getObject("some_key", MyObject.class);
 
 ## Contributing
 
-Any comments and feedback are welcome, feel free to open an issue.
+Any comments/feedbacks are welcome, feel free to open an issue or email me at [augustoherbel.it@gmail.com](augustoherbel.it@gmail.com).
 
 ## Authors
 
