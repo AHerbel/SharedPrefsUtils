@@ -1,4 +1,4 @@
-package com.augustoherbel.sharedprefsutils.simple;
+package com.augustoherbel.sharedprefsutils;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

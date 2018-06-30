@@ -1,4 +1,4 @@
-package com.augustoherbel.sharedprefsutils.simple;
+package com.augustoherbel.sharedprefsutils;
 
 import org.junit.Test;
 
