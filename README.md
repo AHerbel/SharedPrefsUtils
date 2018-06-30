@@ -14,7 +14,7 @@ allprojects {
 }
 ```
 
-Include this line in your module's build.gradle dependencies block. Choose the version that's suitable for you
+Include this line into your module's build.gradle dependencies block. Choose the version that's suitable for you
 
 ```
 dependencies {
@@ -70,7 +70,7 @@ SharedPrefsUtils.remove("some_key");
 ```
 
 Gson version.
-This version extends simple version adding the Google's Gson library to allow objects been saved as json strings in SP.
+This version extends simple version adding the Google's Gson library to allow objects been saved as json strings in SharedPreferences.
 
 ```
 // Storing an object
