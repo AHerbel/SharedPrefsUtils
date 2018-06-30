@@ -1,1 +1,1 @@
-include ':sharedprefsutils', ':sharedprefsutils-simple', ':sharedprefsutils-gson'
+include ':sharedprefsutils-base', ':sharedprefsutils', ':sharedprefsutils-gson'
