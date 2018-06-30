@@ -9,7 +9,7 @@ Include this line in your gradle dependencies block
 Insert gradle implementation link
 ```
 
-### How to use it
+### Initializing
 
 Initialize the SharedPreferences in onCreate or attachBaseContext methods of your Application class
 ```
@@ -35,6 +35,10 @@ public class App extends Application {
 
 ```
 
+### How to use it
+
+SharedPrefsUtils Simple version
+
 ```
 // Put some value
 SharedPrefsUtils.putBoolean("some_key", some_value);
@@ -49,9 +53,11 @@ if(SharedPrefsUtils.contains("some_key")) {
 
 // Remove
 SharedPrefsUtils.remove("some_key");
+```
 
-/*** Library version with Google's Gson ***/
+SharedPrefsUtils Gson version
 
+```
 // Storing an object
 SharedPrefsUtils.putObject("some_key", anObject);
 
