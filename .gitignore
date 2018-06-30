@@ -38,13 +38,15 @@ captures/
 .idea/tasks.xml
 .idea/gradle.xml
 .idea/assetWizardSettings.xml
+.idea/modules.xml
 .idea/dictionaries
 .idea/libraries
 .idea/caches
 
 # Keystore files
 # Uncomment the following line if you do not want to check your keystore files in.
-#*.jks
+*.jks
+keystore_credentials.txt
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
@@ -63,3 +65,6 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+# other
+.DS_Store
