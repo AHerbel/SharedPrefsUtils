@@ -58,7 +58,8 @@ if(SharedPrefsUtils.contains("some_key")) {
 SharedPrefsUtils.remove("some_key");
 ```
 
-Gson version
+Gson version.
+This version extends simple version adding the Google's Gson library to allow objects been saved as json strings in SP.
 
 ```
 // Storing an object
