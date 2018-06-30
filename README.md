@@ -19,8 +19,8 @@ Include one of these lines into your module's build.gradle dependencies block. C
 
 ```
 dependencies {
-    implementation 'com.github.AHerbel.SharedPrefsUtils:sharedprefsutils:1.0.0'
-    implementation 'com.github.AHerbel.SharedPrefsUtils:sharedprefsutils-gson:1.0.0'
+    implementation 'com.github.AHerbel.SharedPrefsUtils:sharedprefsutils:1.0.1'
+    implementation 'com.github.AHerbel.SharedPrefsUtils:sharedprefsutils-gson:1.0.1'
 }
 ```
 
