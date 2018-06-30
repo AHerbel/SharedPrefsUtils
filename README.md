@@ -13,6 +13,7 @@ allprojects {
     }
 }
 ```
+If you have any troubles with JitPack repository try changing from ```https://jitpack.io``` to ```https://www.jitpack.io```.
 
 Include this line into your module's build.gradle dependencies block. Choose the version that's suitable for you
 
