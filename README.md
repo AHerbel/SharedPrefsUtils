@@ -85,9 +85,9 @@ MyObject myObject = SharedPrefsUtils.getObject("some_key", MyObject.class);
 
 Any comments/feedbacks are welcome, feel free to open an issue or email me at [augustoherbel.it@gmail.com](augustoherbel.it@gmail.com).
 
-## Authors
+## Author
 
-* **Augusto Herbel** - [AHerbel](https://github.com/AHerbel)
+**Augusto Herbel** - [AHerbel](https://github.com/AHerbel)
 
 See also the list of [contributors](https://github.com/AHerbel/SharedPrefsUtils/contributors) who participated in this project.
 
