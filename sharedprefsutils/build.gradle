@@ -21,7 +21,7 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':sharedprefsutils-base')
+    api project(path: ':sharedprefsutils-base')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     testImplementation 'junit:junit:4.12'
